@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Copy settings to cursor
-cp -r cursor-settings.json $HOME/Library/Application\ Support/Code/User/settings.json
-cp -r cursor-keybindings.json $HOME/Library/Application\ Support/Code/User/keybindings.json
-cp -r cursor-snippets $HOME/Library/Application\ Support/Code/User/snippets
+cp -r cursor-settings.json $HOME/Library/Application\ Support/Cursor/User/settings.json
+cp -r cursor-keybindings.json $HOME/Library/Application\ Support/Cursor/User/keybindings.json
+cp -r cursor-snippets $HOME/Library/Application\ Support/Cursor/User/snippets
 
 # Install extensions to cursor
 cursor --install-extension angular.ng-template

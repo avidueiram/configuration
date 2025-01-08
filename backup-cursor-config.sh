@@ -5,9 +5,9 @@ cp -r $HOME/Library/Application\ Support/Cursor/User/settings.json cursor-settin
 cp -r $HOME/Library/Application\ Support/Cursor/User/keybindings.json cursor-keybindings.json
 cp -r $HOME/Library/Application\ Support/Cursor/User/snippets cursor-snippets
 
-echo "cp -r cursor-settings.json \$HOME/Library/Application\ Support/Code/User/settings.json" >> cursor-config.sh
-echo "cp -r cursor-keybindings.json \$HOME/Library/Application\ Support/Code/User/keybindings.json" >> cursor-config.sh
-echo "cp -r cursor-snippets \$HOME/Library/Application\ Support/Code/User/snippets" >> cursor-config.sh
+echo "cp -r cursor-settings.json \$HOME/Library/Application\ Support/Cursor/User/settings.json" >> cursor-config.sh
+echo "cp -r cursor-keybindings.json \$HOME/Library/Application\ Support/Cursor/User/keybindings.json" >> cursor-config.sh
+echo "cp -r cursor-snippets \$HOME/Library/Application\ Support/Cursor/User/snippets" >> cursor-config.sh
 
 echo "\n# Install extensions to cursor" >> cursor-config.sh
 
