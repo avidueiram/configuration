@@ -1,0 +1,13 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "cmd+n",
+        "command": "editor.action.sourceAction",
+        "when": "false && editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+n",
+        "command": "-editor.action.sourceAction",
+        "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
+    }
+]
